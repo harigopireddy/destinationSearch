@@ -1,0 +1,12 @@
+.di-container {
+  margin: 0 20px 20px 0;
+  width: 200px;
+}
+
+.di-img {
+  width: 200px;
+}
+
+.di-name {
+  font-weight: 500;
+}

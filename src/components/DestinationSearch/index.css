@@ -1,0 +1,57 @@
+.ds-bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.ds-container {
+  max-width: 890px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #252627;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.ds-input-container {
+  background-color: #f1f5f9;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0 15px;
+}
+
+.ds-input {
+  background: #00000000;
+  border: 0;
+  outline: none;
+  height: 40px;
+  color: #0f172a;
+  font-family: 'Bree Serif';
+}
+
+.ds-icon {
+  height: 20px;
+}
+
+.dis-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  h1,
+  .ds-input-container,
+  .di-container {
+    align-self: flex-start;
+  }
+}
